@@ -63,7 +63,7 @@ function StockSearch() {
     const handleTriggerChange = (val) =>{
         let temp = [...recentSearches,val];
         setRecentSearches(temp);
-        setValue(val);
+        setValue('');
         setShowSuggestion(false)
         setDetails(true)
         setSearchText(val)
